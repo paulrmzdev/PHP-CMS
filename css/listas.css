@@ -1,0 +1,189 @@
+
+table {
+	margin-bottom: 20px;
+	margin:auto;
+	max-width: 900px;
+}
+
+table, tr, td{
+	border: 1px solid #04AB8D;
+}
+
+
+td {
+	text-align: center;
+	padding: 16px 6px;
+}
+
+table img {
+	width: 100%;
+	max-width: 800px;
+	height: 100%;
+	object-fit: cover;
+}
+
+table p{
+	max-height: 100px;
+	overflow-y: scroll;
+}
+
+table a{
+text-decoration: none;
+color: #fafafa;
+padding: 2px 16px;
+font-weight: bold;
+}
+
+/*Servicios*/ 
+
+.servicios {
+	background-color: #04AB8D;
+	color: #fafafa;
+	text-align: center;
+	padding-bottom: 32px;
+}
+
+.lista {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	text-align: center;
+}
+
+.item {
+	margin: 16px;
+}
+
+.item img{
+	max-width: 250px;
+	min-height: 250px;
+	object-fit: contain;
+}
+
+.item a{
+text-decoration: none;
+color: #fafafa;
+padding: 2px 16px;
+font-weight: bold;
+}
+
+.boton_actualizar {
+	background-color: #04AB8D;
+    border-radius: 6px;
+ }
+
+.boton_eliminar {
+	background-color: red;
+    border-radius: 6px;
+}
+
+.service {
+	margin: 0 8px;
+}
+
+.servicio {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	border-top:5px solid #04AB8D;
+}
+
+.servicio1 {
+	padding-top: 16px;
+	margin-right: 8px;
+	color: #A8569E;
+}
+
+.servicio2 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	max-width: 350px;
+	padding: 8px;
+}
+
+.servicio img, .service img {
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+	margin:16px 0;
+	border-radius: 6%;
+}
+
+/*Equipo*/
+
+.nosotros {
+	background-color: #A8569E;
+	color: #fafafa;
+}
+
+.equipo {
+	margin-top: 32px;
+	padding-bottom: 32px;
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	flex-wrap: wrap;
+	color: #fafafa;
+}
+
+.empleado {
+	margin: auto;
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+/*Promociones*/
+
+.promocion img {
+	width: 210px;
+	height: 300px;
+	object-fit: cover;
+	margin:16px 0;
+	border:5px solid #04AB8D;
+	border-radius: 6%;
+}
+
+/*Galeria*/
+
+.conteiner {
+	margin: auto;
+	width: 90%;	
+	max-width: 1210px;
+}
+
+.galeria {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;	
+}
+
+.galeria img {
+	width: 270px;
+	height: 250px;
+	margin: 16px;
+	border-radius: 6px;
+	object-fit: cover;
+}
+
+/*Encuesta*/
+
+form {
+	text-align: center;
+}
+
+
+.pregunta {
+
+}
+
+.respuestas {
+	display: flex;
+	justify-content: center;
+}
+
+.lista h3{
+	margin:16px;
+}
